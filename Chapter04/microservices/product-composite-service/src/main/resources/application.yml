@@ -31,4 +31,4 @@ app:
     port: 8080
   review-service:
     host: review
-    port: 8080
+    port: 8080  
