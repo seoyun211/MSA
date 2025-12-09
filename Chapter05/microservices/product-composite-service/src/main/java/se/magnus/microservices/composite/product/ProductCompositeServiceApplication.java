@@ -33,8 +33,8 @@ public class ProductCompositeServiceApplication {
   *
   * @return the common OpenAPI documentation
   */
-  @Bean
-  public OpenAPI getOpenApiDocumentation() {
+  @Bean 
+  public OpenAPI getOpenApiDocumentation() { 
     return new OpenAPI()
       .info(new Info().title(apiTitle)
         .description(apiDescription)
